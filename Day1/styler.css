@@ -23,3 +23,23 @@ h1{
 ol[draggable="true"],li{
     background-color:yellowgreen;
 }
+
+/* attribute and grouping selector */
+
+p[contenteditable="true"]{
+    color:brown;
+}
+
+/* attribute selector */
+#one.first{
+    text-transform: uppercase;
+}
+
+/* Id Selector with class selector */
+div > p{
+    background-color:aqua;
+}
+/* child selector */
+div p{
+    background-color: aquamarine;
+}
