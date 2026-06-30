@@ -1,0 +1,10 @@
+h1{
+    color:red;
+    background-color: yellow;
+}
+ol,li{
+    background-color:beige;
+}
+*{
+    background-color: rgb(240, 186, 227);
+}
