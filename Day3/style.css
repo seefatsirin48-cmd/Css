@@ -1,0 +1,14 @@
+li{
+    font-size:3vw;
+    background-color: rgb(255, 200, 209);
+    font-weight: 900;
+    font-style:italic;
+    font-variant:small-caps;
+}
+p{
+    font-family: "Bitcount Prop Double", system-ui;
+    font-size: 3rem;
+}
+body{
+    background-color: aquamarine;
+}
