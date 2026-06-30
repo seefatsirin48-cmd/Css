@@ -1,0 +1,19 @@
+ol{
+    background-color: pink;
+    font-size: 3vw;
+}
+/* named color */
+h1{
+    background-color: rgb(210,240,180,);
+    color:rgba(246, 43, 43,1);
+}
+
+/* rgb color */
+h2{
+    background-color:#85d4f3;
+}
+/* Hexadecimal color */
+p{
+    background-color:hsl(44, 88%, 77%)
+}
+/* hsl color */
