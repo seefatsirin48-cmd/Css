@@ -1,4 +1,6 @@
-
+*{
+  margin:0;
+}
 .first{
     height:60vh;
     width:60vh;
