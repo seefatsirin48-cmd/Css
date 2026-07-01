@@ -1,0 +1,51 @@
+.first{
+    background-color:brown;
+    height:200px;
+    width:150px;
+    margin:40px;
+    /* Block elemnt me margin horizontal and vertical 
+    dono visible hota hai. */
+    display:inline;
+    /* hm agar block level 
+    elemnt par display
+    inline kar de 
+    too wo inline element ki tarah behave 
+    karne lagta hai
+    aur height with ab is pr apply nahi hoga. */
+}
+.second{
+    height:200px;
+    width:150px;
+    background-color:aquamarine;
+     margin:40px;
+}
+span{
+    /* height:200px
+    height width nahi work karta with inline element
+    width:200px; */
+    background-color: chartreuse;
+     margin:40px;
+     /* margin inline elemnt me bs horizontally
+     visible hota hai vertical margin visible nahi hota hai
+     although milta margin dono hai 
+     horizontal and vertical. */
+     /* display:block; */
+     /* Display block kr dene se inline element
+     block element ki tarah behave 
+     krne lagte hai
+     ab hm height and width dono 
+     apply kar sakte hai. */
+     height:200px;
+     width:150px;
+     display: inline-block;
+
+}
+/* ek method aur hai hamare pass
+wo hai hybrid method
+matlab display:inline-block 
+agar ye property apply kar rhe 
+hai to wo behave to inline 
+ki tarah hi karega 
+lekin us par hm height 
+width dono apply kar sakte hai.
+*/
