@@ -1,0 +1,27 @@
+*{
+    margin:0;
+}
+
+.first{
+    display:inline-block;
+    height:35vh;
+    width:100vw;
+    background-color:orangered;
+}
+.second{
+   
+    height:35vh;
+    width:100vw;
+    display:inline-block;
+    background-color:green;
+}
+.third {
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
+    line-height: 30vh;
+}
+
+.third img {
+    vertical-align: middle;
+}
