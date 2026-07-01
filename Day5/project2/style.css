@@ -1,12 +1,17 @@
-*{
-    margin:0;
-}
+
 .first{
-    display:inline-block;
     height:60vh;
     width:60vh;
     background-color:red;
    border-radius: 50%;
-  margin:auto
-   
+    margin: auto;
+    /* agar ham yaha pr
+    display:inline block 
+    likh de 
+    too ye margin:auto;
+    use krne par 
+    object horizontally centre nahi shift hoga
+    kyun ki inline block prye work nahi karta hai
+     */
+   margin-top: 20vh;
 }
