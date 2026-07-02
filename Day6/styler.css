@@ -1,0 +1,19 @@
+*{
+    margin:0;
+}
+h1{
+    position:fixed;
+    left:0 px;
+    top: 0 px;
+    right: 0 px;
+    background-color: aquamarine;
+    width:100%
+}
+main{
+    padding-top: 60px;
+    /* margin-top:60px;
+    ye nahi work karega because this is my heading
+    se space chahiye too kaise milega 
+    padding ke help se kyun ki fixed hone ke baad this is my heading
+    to apna space leave kar diya hai */
+}

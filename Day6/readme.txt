@@ -46,3 +46,10 @@ NEXT AB HAM FIXED POSITION KE BARE ME PADHEGE
   fixed bhi apna position leave kar deta hai us spac ko koi aur 
   object occupy kar sakta hai.
     
+
+    NEXT HAI STICKY POSITION
+
+    sticky bhi fixed ho jata hai 
+    lekin wo jis parent element ke 
+    ander stick hai usi me fixed hoga aage
+    dusre elements me nahi fixed hoga 

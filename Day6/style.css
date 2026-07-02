@@ -29,11 +29,14 @@
      /* position:absolute;
      bottom:10px;
      left:30px; */
-    position :fixed;
+    /* position :fixed;
     top:20px;
-    left:150px;
+    left:150px; */
 
-
+    position: sticky;
+    top:10px;
+/* sticky me top left mention na karu to to 
+work nahi karta aur mention karne par koi effect nahi show ho rha kyu */
 }
 
 .box3{
@@ -42,4 +45,10 @@
 
 .box4{
     background-color:tomato;
+}
+
+.newcontainer{
+    height:800px;
+    width:100%;
+    background-color:brown;
 }
