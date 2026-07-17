@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+   
+}
+
+.box{
+    display:inline-block;
+   
+}
+
+.rating{
+    border: solid rgb(0, 128, 0);
+    border-radius: 8px;
+    background-color: green;
+    color:white;
+    position:absolute;
+    right:5px;
+}
+
+.restaurantname{
+    position:relative;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.card{
+  
+    display:inline-block;
+}
+
+.price{
+    position:absolute;
+    right:5px;
+}
+
+.location ,.open{
+    position:relative;
+    margin-bottom: 8px;
+}
+
+.distance{
+    position:absolute;
+    right:5px;
+}
