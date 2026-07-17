@@ -1,9 +1,9 @@
 *{
     margin:0px;
-   
+   background-color: rgb(247, 232, 232);
 }
 
-.box{
+.box {
     display:inline-block;
    
 }
@@ -23,9 +23,17 @@
     margin-bottom: 8px;
 }
 
+.card:hover{
+    border-color: white;
+    background-color: white;
+}
+
 .card{
-  
+   
     display:inline-block;
+    border:20px solid rgb(247, 232, 232) ;
+    border-radius: 10px;
+
 }
 
 .price{
@@ -41,4 +49,21 @@
 .distance{
     position:absolute;
     right:5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.opening{
+    color:rgb(164, 35, 35);
+}
+
+.place,.price{
+    color:rgb(128, 125, 125);
+}
+
+.image{
+    border-radius: 15px;
+}
+.name{
+    font-weight: bold;
 }
