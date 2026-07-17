@@ -1,6 +1,6 @@
 *{
     margin:0px;
-   background-color: rgb(247, 232, 232);
+   
 }
 
 .box {
@@ -16,7 +16,22 @@
     position:absolute;
     right:5px;
 }
+.img{
+    position:relative;
+}
+.off{
+   
+    font-size: 30px;
+    background-color: rgba(246, 34, 34, 0.6);
+    color:white;
+     position:absolute;
+    bottom:15px;
+    left:5px;
+}
 
+body{
+    background-color: rgb(242, 221, 221);
+}
 .restaurantname{
     position:relative;
     margin-top: 8px;
@@ -24,16 +39,20 @@
 }
 
 .card:hover{
+     background-color: white;
     border-color: white;
-    background-color: white;
+   
+
 }
 
 .card{
    
     display:inline-block;
-    border:20px solid rgb(247, 232, 232) ;
+    border:20px solid rgb(242, 221, 221);
     border-radius: 10px;
-
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .price{
@@ -57,7 +76,7 @@
     color:rgb(164, 35, 35);
 }
 
-.place,.price{
+.place,.price , .food{
     color:rgb(128, 125, 125);
 }
 
